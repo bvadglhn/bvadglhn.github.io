@@ -1,0 +1,45 @@
+/* TIMER CLOCK */
+.ttn-timer-clock, .ttn-thetimenow-clock, .ttn-countdown-clock{
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.ttn-timer-clock-btn{
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+  background-color: white;
+  color: #ccc;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ttn-timer-clock-btn.active{
+  color: red;
+  border-color: red;
+}
+
+.ttn-thetimenow-clock-date{
+  font-size: 13px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.ttn-countdown-clock-wrapper{
+  display: inline-block;
+  margin: 5px;
+}
+
+.ttn-countdown-clock-text{
+  display: block;
+}
+
+.ttn-countdown-clock-label{
+  font-size: small;
+}
